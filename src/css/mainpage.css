@@ -80,3 +80,78 @@
 hr {
     border: solid 3px black;
 }
+
+#info-panel {
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+}
+
+#info-panel div {
+    display: inline-block;
+    padding: 14px 18px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#info-panel-3 {
+    margin-left: 15px;
+}
+
+#info-panel-2 {
+    margin-left: 15px;
+}
+
+#teachers-block {
+    background-color: rgba(0, 234, 0, 0.539);
+}
+
+#teachers-block h2 p {
+    margin-top: 10px;
+}
+
+#page-footer {
+    background-color: rgb(49, 81, 209);
+    margin-top: 50px;
+    height: 100%;
+    padding: 0;
+    color: white;
+}
+
+#footer-socials {
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 63px;
+}
+
+#footer-branding {
+    text-align: center;
+    bottom: 0;
+}
+
+#footer-branding h2 {
+    color: white;
+    display: inline-block;
+}
+
+#footer-branding h6 {
+    color: white;
+}
+
+#footer-branding p {
+    color: white;
+}
+
+#footer-branding img {
+    height: 60px;
+    display: inline-block;
+}
+
+#footer-content {
+    color: white;
+}
+
+#footer-content a {
+    color: white;
+    overflow: hidden;
+}
