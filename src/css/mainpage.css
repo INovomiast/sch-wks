@@ -1,0 +1,82 @@
+#background-img {
+    background-color: white;
+    background-image: url("../static/images/studiying-background-blurred.jpg");
+    text-align: center;
+    margin: auto 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+#background-img-text {
+    text-align: center;
+    transform: translateY(140px);
+    font-size: 50px;
+    color: white;
+}
+
+#background-img-btn {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn-signup {
+    text-align: center;
+    transform: translateY(150px);
+    background-color: rgb(0, 215, 0);
+    width: 250px;
+    height: 50px;
+    font-size: 28px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+    border: transparent;
+}
+
+.btn-signup:hover {
+    background-color: rgb(0, 195, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 255, 17, 0.17) 0px 12px 13px, rgba(38, 255, 0, 0.09) 0px -3px 5px;
+    border: 1px solid rgb(0, 255, 0, 0.5);
+}
+
+#prj_links {
+    font-size: 50px;
+    color: black;
+    transform: translateY(250px);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 14px 18px;
+}
+
+.fa-discord {
+    color: rgb(65, 129, 225);
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-github:hover {
+    cursor: pointer;
+}
+
+.fa-discord:hover {
+    cursor: pointer;
+}
+
+.fa-dev {
+    color: white;
+}
+
+.fa-dev:hover {
+    cursor: pointer;
+}
+
+hr {
+    border: solid 3px black;
+}
