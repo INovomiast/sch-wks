@@ -10,7 +10,11 @@
  */
 
 //Redir Function
+const login_btn = document.getElementById('background-img-btn');
 
+login_btn.addEventListener('click', () => {
+    window.location.href = 'http://schwkscdn.000webhostapp.com/';
+}); 
 
 
 //All Icons
